@@ -28,7 +28,6 @@ namespace voltagedrop
                     b = 0;
                     break;
             }
-            // double cosf = 0.9, L = 66, S = 2.5, Ib = 6.3;
             Console.WriteLine("Введите мощность в кВт: ");
             double Pp = double.Parse(Console.ReadLine());
             Console.WriteLine("Введите косинус: ");
