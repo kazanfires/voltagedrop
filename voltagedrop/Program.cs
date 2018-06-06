@@ -48,8 +48,7 @@ namespace voltagedrop
             double ro = 0.0225, lambda = 0.00008;
             double u, dU;
             // Вычисление падения напряжения
-            u = b * (ro * (L / S) * Math.Cos(cosf) +
-                     lambda * L * Math.Sin(cosf)) * Ib;
+            u = b * (ro * (L / S) * Math.Cos(cosf) + lambda * L * Math.Sin(cosf)) * Ib;
             // Приведение к процентам
             dU = 100 * (u / U0);
             Console.WriteLine("Потеря напряжения составляет: " + Math.Round(dU, 2, MidpointRounding.AwayFromZero) + " %");
