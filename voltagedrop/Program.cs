@@ -34,7 +34,7 @@ namespace voltagedrop
             double cosf = double.Parse(Console.ReadLine());
             Console.WriteLine("Введите длину линии: ");
             double L = double.Parse(Console.ReadLine());
-            Console.WriteLine("Введите сечение жилы: ");
+            Console.WriteLine("Введите сечение алюминиевой жилы: ");
             double S = double.Parse(Console.ReadLine());
             switch (U0)
             {
